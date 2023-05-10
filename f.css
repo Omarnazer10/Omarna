@@ -1,0 +1,19 @@
+.samer{
+    display:grid; 
+    height: 600px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    grid-template-rows:150px 150px 150px;
+    grid-gap: 10px;
+
+}
+.box{
+    background:aqua ;
+    text-align:center ;
+    color:white;
+    
+}
+.box1{
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
